@@ -1,0 +1,14 @@
+script:
+  class: File
+  path: scripts/cj_toolkit.py
+  secondaryFiles:
+    - class: File
+      path: scripts/functions.py
+vector_h:
+  class: File
+  path: data/es1/vector_h.csv
+matrix:
+  class: File
+  path: data/es1/matrix.csv
+length: 2
+column_str: "column"
